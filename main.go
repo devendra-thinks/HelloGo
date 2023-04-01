@@ -2,6 +2,11 @@ package main
 
 import "fmt"
 
+// purpose of this to learn - go
+// completed - struct, slice, map ,interface, pointer in go
+// to run this use below command
+// go run main.go deck.go structdemo.go interface.go
+
 func main() {
 	// Go is a static type lang, cant change variable type later
 	cards, _ := newDeckFromFile("mycards.txt")
@@ -44,4 +49,11 @@ func main() {
 	//  emptyMap2 := make(map[string]string)
 	//  fmt.Println(emptyMap2)
 
+	//interfaces
+
+	gp := goodprinter{}
+	print(gp)
+
+	bp := badprinter{}
+    print(bp)
 }
