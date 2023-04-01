@@ -55,5 +55,5 @@ func main() {
 	print(gp)
 
 	bp := badprinter{}
-    print(bp)
+	print(bp)
 }
