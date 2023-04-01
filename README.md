@@ -1,0 +1,3 @@
+# HelloGo
+
+Practice go repo!
